@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search HW-12</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+            <label>
+                <input type="text" name="search-text" placeholder="Search images..." required />
+            </label>
+            <button type="submit">Search</button>
+        </form>
+
+        <ul class="gallery"></ul>
+
+        <span class="loader hidden"></span>
+
+        <button type="button" class="load-more hidden">Load more</button>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
